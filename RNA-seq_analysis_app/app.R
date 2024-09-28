@@ -21,7 +21,7 @@ suppressPackageStartupMessages({
 set.seed(123)
 
 ################################################################################
-################################## functions #####################################
+################################## functions ###################################
 
 dds_wide_fn <- function(counts, coldata, group){
   coldata <- coldata %>% mutate_if(is.character,as.factor)
