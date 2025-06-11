@@ -1,4 +1,3 @@
-````markdown
 # Shiny Apps for RNA and scRNA-seq Analysis
 
 This repository contains two interactive Shiny applications developed for RNA-seq and single-cell RNA-seq (scRNA-seq) data analysis. Each app is built to help researchers explore, analyze, and visualize transcriptomic datasets through a user-friendly browser interface without requiring advanced coding skills.
