@@ -7,7 +7,6 @@ This repository contains two interactive Shiny applications developed for RNA-se
 - [`RNA-seq_analysis_app/`](./RNA-seq_analysis_app) – Differential expression analysis and visualization of bulk RNA-seq data
 - [`scRNA-seq_analysis_app/`](./scRNA-seq_analysis_app) – End-to-end single-cell RNA-seq analysis using Seurat and related tools
 
----
 
 ## 📦 RNA-seq Analysis Shiny App
 
@@ -45,8 +44,6 @@ cd Shiny_apps/RNA-seq_analysis_app
 shiny::runApp("app.R")
 ```
 
----
-
 ## 🔬 scRNA-seq Analysis Shiny App
 
 An interactive Shiny app for analyzing single-cell RNA-seq datasets, using the Seurat framework, scDblFinder, SingleR, and other tools.
@@ -63,7 +60,6 @@ Key features include:
 For full documentation, visit:
 [`scRNA-seq_analysis_app/readme.md`](./scRNA-seq_analysis_app/readme.md)
 
----
 
 ## 💬 Contact
 
@@ -73,10 +69,7 @@ For questions, suggestions, or contributions:
 📧 [iichelhadi@gmail.com](mailto:iichelhadi@gmail.com)
 🌐 [GitHub Profile](https://github.com/iichelhadi)
 
----
 
 ## 📄 License
 
 This repository is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
-
-```
