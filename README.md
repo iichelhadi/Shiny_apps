@@ -1,7 +1,3 @@
-Here's an updated **top-level `README.md`** for your `Shiny_apps` repository that introduces both apps (RNA-seq and scRNA-seq), while preserving and integrating the detailed information you provided for the RNA-seq app.
-
----
-
 ````markdown
 # Shiny Apps for RNA and scRNA-seq Analysis
 
@@ -84,9 +80,4 @@ For questions, suggestions, or contributions:
 
 This repository is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
-```
-
----
-
-This version gives a clean overview of both apps, with the **bulk RNA-seq app explained in detail**, and the **scRNA-seq app linked to its own full README** for clarity and maintainability. Let me know if you'd like to embed app screenshots or badges.
 ```
