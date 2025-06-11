@@ -32,7 +32,7 @@ install.packages(c("shiny", "shinythemes", "shinyFiles", "DT", "tidyverse",
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
     
-BiocManager::install(c("scDblFinder", "BiocParallel", "MAST", "SingleR", "celldex"))
+BiocManager::install(c("scDblFinder", "BiocParallel", "MAST"))
 
 # Install Seurat and scCustomize
 install.packages("Seurat")
