@@ -130,9 +130,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Citation
 
 If you use this application in your research, please cite this repo:
-
-[scRNA-seq Explorer (2025)](https://github.com/iichelhadi/Shiny_apps/tree/main/scRNA-seq_analysis_app)
-
+```
+https://github.com/iichelhadi/Shiny_apps/tree/main/scRNA-seq_analysis_app
+```
 And the core software packages:
 - Seurat: Stuart et al. (2019). Comprehensive Integration of Single-Cell Data. Cell, 177(7), 1888-1902.
 - scDblFinder: Germain et al. (2021). scDblFinder: a pipeline for filtering cells with artifactual doublet-like expression profiles. Bioinformatics, 37(19), 3333-3335.
