@@ -2,8 +2,6 @@
 
 A comprehensive Shiny application for analyzing single-cell RNA sequencing data using the Seurat framework. This interactive tool provides a user-friendly interface for performing common scRNA-seq analysis tasks without extensive coding knowledge.
 
-![Screenshot](images/app_screenshot.png)
-
 ## Features
 
 - **Data Import**: Load 10X Genomics data formats
@@ -131,10 +129,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Citation
 
-If you use this application in your research, please cite:
+If you use this application in your research, please cite this repo:
 
 ```
-scRNA-seq Explorer (2025) https://github.com/iichelhadi/scRNA-seq-explorer
+scRNA-seq Explorer (2025) [[https://github.com/iichelhadi/scRNA-seq-explorer](https://github.com/iichelhadi/Shiny_apps/edit/main/scRNA-seq_analysis_app/)](https://github.com/iichelhadi/Shiny_apps/edit/main/scRNA-seq_analysis_app/)
 ```
 
 And the core software packages:
