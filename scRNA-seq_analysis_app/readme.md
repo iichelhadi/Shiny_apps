@@ -132,7 +132,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 If you use this application in your research, please cite this repo:
 
 ```
-scRNA-seq Explorer (2025) [[https://github.com/iichelhadi/scRNA-seq-explorer](https://github.com/iichelhadi/Shiny_apps/edit/main/scRNA-seq_analysis_app/)](https://github.com/iichelhadi/Shiny_apps/edit/main/scRNA-seq_analysis_app/)
+scRNA-seq Explorer (2025) [https://github.com/iichelhadi/scRNA-seq-explorer](https://github.com/iichelhadi/Shiny_apps/edit/main/scRNA-seq_analysis_app/)
 ```
 
 And the core software packages:
