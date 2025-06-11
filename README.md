@@ -31,7 +31,7 @@ An interactive Shiny application for exploring and analyzing RNA-seq count data,
   if (!requireNamespace("BiocManager", quietly = TRUE))
       install.packages("BiocManager")
   BiocManager::install("DESeq2")
-````
+  ```
 
 ### Running the App
 
@@ -48,7 +48,7 @@ shiny::runApp("app.R")
 
 An interactive Shiny app for analyzing single-cell RNA-seq datasets, using the Seurat framework, scDblFinder, SingleR, and other tools.
 
-Key features include:
+## Key features include:
 
 * 10X Genomics data import
 * Quality control filtering
