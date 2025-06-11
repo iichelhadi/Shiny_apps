@@ -140,3 +140,11 @@ And the core software packages:
 - scDblFinder: Germain et al. (2021). scDblFinder: a pipeline for filtering cells with artifactual doublet-like expression profiles. Bioinformatics, 37(19), 3333-3335.
 - MAST: Finak et al. (2015). MAST: a flexible statistical framework for assessing transcriptional changes and characterizing heterogeneity in single-cell RNA sequencing data. Genome Biology, 16, 278.
 - SingleR: Aran et al. (2019). Reference-based analysis of lung single-cell sequencing reveals a transitional profibrotic macrophage. Nature Immunology, 20(2), 163-172.
+
+Contact
+
+For any questions or suggestions, please reach out:
+
+    Name: Elhadi Iich
+    Email: iichelhadi@gmail.com
+
