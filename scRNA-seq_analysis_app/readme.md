@@ -7,7 +7,7 @@ A comprehensive Shiny application for analyzing single-cell RNA sequencing data 
 - **Data Import**: Load 10X Genomics data formats
 - **Quality Control**: Interactive filtering based on metrics like mitochondrial percentage, number of genes, and UMI counts
 - **Doublet Detection**: Identify and remove cell doublets using scDblFinder
-- **Dimensionality Reduction**: PCA and UMAP visualizations
+- **Dimensionality Reduction**: UMAP visualizations
 - **Clustering**: Flexible clustering options with multiple algorithms and resolution settings
 - **Gene Expression Visualization**: Feature plots and violin plots for gene expression patterns
 - **Marker Gene Identification**: Find differentially expressed genes between clusters
