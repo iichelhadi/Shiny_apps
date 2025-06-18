@@ -35,7 +35,8 @@ if (!requireNamespace("BiocManager", quietly = TRUE))
 BiocManager::install(c("scDblFinder", "BiocParallel", "MAST"))
 
 # Install Seurat and scCustomize
-install.packages("Seurat")
+install.packages("remotes")
+remotes::install_version("Seurat", version = "4.3.0")
 devtools::install_github("samuel-marsh/scCustomize")
 ```
 
