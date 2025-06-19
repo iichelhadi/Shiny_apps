@@ -53,4 +53,4 @@ Interact with the App: The app should open in your default web browser, where yo
 
 For any questions or suggestions, please reach out:
 - Name: Elhadi Iich
-- Email: e.iich@hotmail.nl
+- Email: iichelhadi@gmail.com

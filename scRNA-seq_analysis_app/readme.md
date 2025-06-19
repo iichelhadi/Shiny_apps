@@ -2,14 +2,12 @@
 
 A comprehensive Shiny application for analyzing single-cell RNA sequencing data using the Seurat framework. This interactive tool provides a user-friendly interface for performing common scRNA-seq analysis tasks without extensive coding knowledge.
 
-![Screenshot](images/app_screenshot.png)
-
 ## Features
 
 - **Data Import**: Load 10X Genomics data formats
 - **Quality Control**: Interactive filtering based on metrics like mitochondrial percentage, number of genes, and UMI counts
 - **Doublet Detection**: Identify and remove cell doublets using scDblFinder
-- **Dimensionality Reduction**: PCA and UMAP visualizations
+- **Dimensionality Reduction**: UMAP visualizations
 - **Clustering**: Flexible clustering options with multiple algorithms and resolution settings
 - **Gene Expression Visualization**: Feature plots and violin plots for gene expression patterns
 - **Marker Gene Identification**: Find differentially expressed genes between clusters
@@ -131,12 +129,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Citation
 
-If you use this application in your research, please cite:
-
+If you use this application in your research, please cite this repo:
 ```
-scRNA-seq Explorer (2025) https://github.com/iichelhadi/scRNA-seq-explorer
+https://github.com/iichelhadi/Shiny_apps/tree/main/scRNA-seq_analysis_app
 ```
-
 And the core software packages:
 - Seurat: Stuart et al. (2019). Comprehensive Integration of Single-Cell Data. Cell, 177(7), 1888-1902.
 - scDblFinder: Germain et al. (2021). scDblFinder: a pipeline for filtering cells with artifactual doublet-like expression profiles. Bioinformatics, 37(19), 3333-3335.
