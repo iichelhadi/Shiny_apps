@@ -25,9 +25,10 @@ ui <- fluidPage(
       sidebarLayout(
         sidebarPanel(
           # Input options
-          shinyDirButton("directory_input", "Choose 10X Directory", "Select directory"),
-          actionButton("load_data_btn", "Load Data", class = "btn-primary"),
-          
+          shinyDirButton("directory_input", "Choose 10X Directory", 
+                         "Select directory",class = "btn-primary"),
+          tags$hr(),
+          actionButton("load_data_btn", "Load Data", class = "btn-primary"),          
           tags$hr(),
           
           # QC filtering parameters

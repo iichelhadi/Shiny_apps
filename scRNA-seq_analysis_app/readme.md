@@ -13,13 +13,12 @@ A comprehensive Shiny application for analyzing single-cell RNA sequencing data 
 - **Clustering**: Flexible clustering options with multiple algorithms and resolution settings
 - **Gene Expression Visualization**: Feature plots and violin plots for gene expression patterns
 - **Marker Gene Identification**: Find differentially expressed genes between clusters
-- **Cell Type Annotation**: Automated annotation using SingleR or manual annotation
 
 ## Installation
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/scRNA-seq-explorer.git
+git clone https://github.com/iichelhadi/Shiny_apps/scRNA-seq-explorer.git
 cd scRNA-seq-explorer
 ```
 
@@ -34,10 +33,11 @@ install.packages(c("shiny", "shinythemes", "shinyFiles", "DT", "tidyverse",
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
     
-BiocManager::install(c("scDblFinder", "BiocParallel", "MAST", "SingleR", "celldex"))
+BiocManager::install(c("scDblFinder", "BiocParallel", "MAST"))
 
 # Install Seurat and scCustomize
-install.packages("Seurat")
+install.packages("remotes")
+remotes::install_version("Seurat", version = "4.3.0")
 devtools::install_github("samuel-marsh/scCustomize")
 ```
 
@@ -73,7 +73,7 @@ shiny::runApp("path/to/scRNA-seq-explorer")
 3. Download marker gene lists for further analysis
 
 ### Cell Annotation
-1. Run automated cell type annotation using reference datasets
+1. Perform manual cell type annotation
 2. Visualize cell types on UMAP plot
 3. Export annotated Seurat object for further analysis
 
@@ -141,4 +141,4 @@ And the core software packages:
 - Seurat: Stuart et al. (2019). Comprehensive Integration of Single-Cell Data. Cell, 177(7), 1888-1902.
 - scDblFinder: Germain et al. (2021). scDblFinder: a pipeline for filtering cells with artifactual doublet-like expression profiles. Bioinformatics, 37(19), 3333-3335.
 - MAST: Finak et al. (2015). MAST: a flexible statistical framework for assessing transcriptional changes and characterizing heterogeneity in single-cell RNA sequencing data. Genome Biology, 16, 278.
-- SingleR: Aran et al. (2019). Reference-based analysis of lung single-cell sequencing reveals a transitional profibrotic macrophage. Nature Immunology, 20(2), 163-172.
+

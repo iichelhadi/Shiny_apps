@@ -12,7 +12,6 @@ suppressPackageStartupMessages({
   library(scDblFinder)
   library(BiocParallel)
   library(MAST)
-  library(SingleR)
   
   # Visualization packages
   library(ggplot2)
@@ -24,9 +23,6 @@ suppressPackageStartupMessages({
   library(tidyverse)
   library(reticulate)
   library(scCustomize)
-  
-  # For cell type reference datasets
-  library(celldex)
   
   # Additional utilities
   library(parallelly)
